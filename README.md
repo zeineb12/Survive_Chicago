@@ -1,11 +1,6 @@
 # How to Survive Eating Out in Chicago
 
-**All progress up to milestone 2 is in the DataCleaningAndExploratoryAnalysis.ipynb notebook.**<br/>
-**Research question 1 is done in FeatureEffect.ipynb**<br/>
-**Research question 2 is done in Food Deserts.ipynb**<br/>
-**Research question 3 is done in FeaturesforSafetyScore.ipynb and then Final Score Calculation.ipynb**<br/>
-**Various maps and graphs for the data story were generated in Maps and graphs - data story.ipynb**<br/>
-**The merging of the Yelp data set and our main data set is done in YelpCFIchain.ipynb**
+The data story we made can be found [here](https://survive-eating-out-chicago.github.io/). The corresponding repository is https://github.com/survive-eating-out-chicago/survive-eating-out-chicago.github.io.
 
 ## Abstract
 "Foodborne diseases are a major cause of illness and death in the United States." The US Centers for Disease Control and Prevention estimate that each year, there are 9.4 million reported cases of foodborne illness, resulting in 55,961 hospitalizations and 1,351 deaths.
@@ -61,53 +56,6 @@ Alongside our main dataset, we will be using the Yelp Fusion API, [8](https://ww
 
 - **Business Match Endpoint**: Lets us match business data from other sources against businesses on Yelp, based on provided business information. 
 - **Business Details**: Given the id of any establishment obtained from the Business Match Endpoint, this returns details like price range, rating, and cuisine. 
-
-## A list of internal milestones up until project milestone 2
-
-#### Clean primary dataset (November 10th)
-
-* Explore features
-* Drop features which are irrelevant to our research questions
-* Clean each column in the dataset
-    * Try to reduce the number of unique values for each column through clustering
-    * Find ways to fill missing values
-
-#### Come up with a data story (November 20th)
-
-* Plot different features and examine their distribution and correlations
-* Cluster thematically close questions together and modify README to reflect evolution of ideas
-* Finalize list of secondary datasets to use to answer research questions
-* Divide secondary dataset management among group members
-* Conduct cleaning process on secondary datasets
-
-## A list of internal milestones up until project milestone 3
-
-#### Answer research questions on primary dataset (December 3rd)
-
-* Divide questions among group members
-* Answer the research questions using all resulting datasets and analysis from milestone 2
-* Come up with insightful responses to questions
-* Peer review after all the group members have finished writing their responses
-
-#### Putting it all together (December 13th)
-
-* Finalize structure of data story after gathering all responses found
-* Divide tasks for data story construction among group members
-* Put together data story
-* Final peer review regarding the different parts each group member was responsible for
-* Test data story to detect bugs and errors
-* Fix errors and bugs
-* Test and finalize data story
-    
-## Results
-
-The data story we made can be found [here](https://survive-eating-out-chicago.github.io/). The corresponding repository is https://github.com/survive-eating-out-chicago/survive-eating-out-chicago.github.io.
-
-## Task Split
-* Lilia Ellouz: Web Scraping Yelp, Yelp Dataset Cleaning, Data Story, Safety Score Calculation for Research Question 3, final presentation
-* Zeineb Sahnoun: Data Cleaning, Exploratory Data Analysis, Research Question 2, final presentation
-* André Adel Alphonse Ghattas: Data Cleaning, Exploratory Data Analysis, Data Story, Research Question 1, Safety Score Calculation for Research Question 3, final presentation
-* Asli Yörüsün: Data Cleaning, Exploratory Data Analysis, Preparing a Merged dataset of Chicago Food Inspections (CFI) and Yelp, Preparing Features for Research Question 3, final presentation
 
 ## Resources
 [1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3204615/#R1 <br/>
