@@ -1,6 +1,6 @@
 # How to Survive Eating Out in Chicago
 
-The data story we made can be found [here](https://survive-eating-out-chicago.github.io/). The corresponding repository is https://github.com/survive-eating-out-chicago/survive-eating-out-chicago.github.io.
+A website of our results can be found [on this link](https://survive-eating-out-chicago.github.io/).
 
 ## Abstract
 "Foodborne diseases are a major cause of illness and death in the United States." The US Centers for Disease Control and Prevention estimate that each year, there are 9.4 million reported cases of foodborne illness, resulting in 55,961 hospitalizations and 1,351 deaths.
